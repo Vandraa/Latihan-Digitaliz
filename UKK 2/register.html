@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            background-color: #FFFFFF;
+            text-align: end;
+            width: 100%;
+            height: 80px;
+        }
+
+        nav ul{
+            list-style: none;
+        }
+
+        nav ul li{
+            margin: 30px 20px;
+        }
+
+        .nav__item a{  
+            color: black;
+            margin: 10px;
+        }
+
+        .banner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #103AB9;
+            color: #FFFFFF;
+            width: 100%;
+            height: 300px;
+        }
+
+        main{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .kolom{
+            margin: 4%;
+            width: 70%;
+        }
+
+        .baris__pertama,
+        .baris__kedua,
+        .baris__ketiga,
+        .baris__keempat{
+            display: flex;
+            margin: 2% 180px;
+        }
+
+        .input,
+        .input__kedua,
+        .input__ketiga{
+            display: flex;
+            flex-direction: column;
+            margin: 5px 10px;
+        } 
+
+        .input input{
+            border: 0px;
+            background-color: #ECECEC;
+            width: 150px;
+            height: 40px; 
+            margin-top: 10px;
+        }
+
+        .input__kedua input{
+            border: 0px;
+            background-color: #ECECEC;
+            width: 500px;
+            height: 40px; 
+            margin-top: 10px;
+        }
+
+        .input__ketiga input{
+            border: 0px;
+            background-color: #ECECEC;
+            width: 238px;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+        .button button{
+            margin: 15px 10px;
+            border: 0px;
+            background-color: #ECECEC;
+            width: 200px;
+            height: 40px;
+            margin-top: 40px;
+        }
+
+        .sidebar{
+            align-items: center;
+            background-color: #ECECEC;
+            display: flex;
+            justify-content: center;
+            width: 30%;
+            height: auto;
+        }
+
+        .sidebar ul li{
+            display: flex;
+            flex-direction: column;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        
+        .sidebar a{
+            margin: 20px;
+            font-size: 25px;
+            color: #000;
+        }
+
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+            width: 100%;
+            height: 60px;
+            color: #FFFFFF;
+            background-color: #103AB9;
+        }
+    </style>
+    <title>REGISTER</title>
+</head>
+<body>
+    <nav>
+        <section class="nav__item">
+            <ul>
+                <li>
+                    <a href="">Beranda</a>
+                    <a href="">Layanan Kami</a>
+                    <a href="">Tentang Kami</a>
+                    <a href="">Kontak Kami</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <section class="banner">
+        <h2>Selamat Datang DI Website Kami!</h2>
+    </section>
+
+    <main class="main">
+        <section class="kolom">
+            <section class="baris__pertama">
+                <section class="input">
+                    <label for="">Nama Depan</label>
+                    <input type="text">
+                </section>
+                <section class="input">
+                    <label for="">Nama Belakang</label>
+                    <input type="text">
+                </section>
+                <section class="input">
+                    <label for="">Alamat Email</label>
+                    <input type="text">
+                </section>
+            </section>
+            <section class="baris__kedua">
+                <section class="input__kedua">
+                    <label for="">Usernaeme</label>
+                    <input type="text">
+                </section>
+            </section>
+            <section class="baris__ketiga">
+                <section class="input__ketiga">
+                    <label for="">Kata Sandi</label>
+                    <input type="text">
+                </section>
+                <section class="input__ketiga">
+                    <label for="">Konfirmasi Kata Sandi</label>
+                    <input type="text">
+                </section>
+            </section>
+            <section class="baris__keempat">
+                <section class="button">
+                    <button>Reset Form</button>
+                </section>
+                <section class="button">
+                    <button>Submit Form</button>
+                </section>
+            </section>
+        </section>
+        <section class="sidebar">
+            <ul>
+                <li>
+                    <a href="">Artikel</a>
+                    <a href="">Bantuan</a>
+                    <a href="">Kuesioner</a>
+                    <a href="">Login</a>
+                    <a href="">Register</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        copyright 2023
+    </footer>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            background-color: #FFFFFF;
+            text-align: end;
+            width: 100%;
+            height: 80px;
+        }
+
+        nav ul{
+            list-style: none;
+        }
+
+        nav ul li{
+            margin: 30px 20px;
+        }
+
+        .nav__item a{  
+            color: black;
+            margin: 10px;
+        }
+
+        .banner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #103AB9;
+            color: #FFFFFF;
+            width: 100%;
+            height: 300px;
+        }
+
+        .main{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .kolom{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+
+        main img{
+            display: flex;
+            margin-top: 50px ;
+            margin-left: 50px;
+            width: 95%;
+            height: 200px;
+        }
+
+        .kolom p{
+            width: 90%;
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+        .sidebar{
+            align-items: center;
+            background-color: #ECECEC;
+            display: flex;
+            justify-content: center;
+            width: 30%;
+            height: auto;
+        }
+
+        .sidebar ul li{
+            display: flex;
+            flex-direction: column;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        
+        .sidebar a{
+            margin: 20px;
+            font-size: 25px;
+            color: #000;
+        }
+
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+            width: 100%;
+            height: 60px;
+            color: #FFFFFF;
+            background-color: #103AB9;
+        }
+    </style>
+    <title>HOME</title>
+</head>
+<body>
+    <nav>
+        <section class="nav__item">
+            <ul>
+                <li>
+                    <a href="">Beranda</a>
+                    <a href="">Layanan Kami</a>
+                    <a href="">Tentang Kami</a>
+                    <a href="">Kontak Kami</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <section class="banner">
+        <h2>Selamat Datang DI Website Kami!</h2>
+    </section>
+
+    <main class="main">
+        <section class="kolom">
+            <img src="kolom.jpg " alt="">
+            <section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vel quaerat est quibusdam nihil ad velit quasi, iure quas itaque hic sunt dolorum fugiat, tempora optio tenetur cupiditate? Accusantium, voluptate?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur culpa iure necessitatibus fuga quam exercitationem eligendi odio voluptates accusantium magni deserunt, aperiam dolores, soluta sapiente quibusdam dolor esse alias voluptas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident distinctio deleniti praesentium dicta officiis ratione, quasi deserunt saepe. Iusto repudiandae modi explicabo ad commodi tenetur, soluta repellendus. Vel, omnis hic?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vel quaerat est quibusdam nihil ad velit quasi, iure quas itaque hic sunt dolorum fugiat, tempora optio tenetur cupiditate? Accusantium, voluptate?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur culpa iure necessitatibus fuga quam exercitationem eligendi odio voluptates accusantium magni deserunt, aperiam dolores, soluta sapiente quibusdam dolor esse alias voluptas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident distinctio deleniti praesentium dicta officiis ratione, quasi deserunt saepe. Iusto repudiandae modi explicabo ad commodi tenetur, soluta repellendus. Vel, omnis hic?</p>
+            </section>
+        </section>
+        <section class="sidebar">
+            <ul>
+                <li>
+                    <a href="">Artikel</a>
+                    <a href="">Bantuan</a>
+                    <a href="">Kuesioner</a>
+                    <a href="">Login</a>
+                    <a href="">Register</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        copyright 2023
+    </footer>
+</body>
+</html>
